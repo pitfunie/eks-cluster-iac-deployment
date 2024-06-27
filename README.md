@@ -18,16 +18,16 @@
 #
 #Open CloudShell with the link below or follow this documentation:
 #
-#https://console.aws.amazon.com/cloudshell/home
-#![image](https://github.com/pitfunie/eks-cluster-iac-deployment/assets/32913487/51ecc3a4-9e46-4d71-8328-8bf54dcb6eb4)
+#https://console.aws.amazon.com/cloudshell/home or your MacOS
+#
 #
 #Once Cloudshell is running follow these commands for CloudFormation Template to create a stack:
 #
 #wget -q https://raw.githubusercontent.com/pitfunie/eks-cluster-iac-deployment/main/eks-wycliffe-ide-cfn.yaml -O eks-wycliffe-ide-cfn.yaml
 #aws cloudformation deploy --stack-name eks-wycliffe-ide \
-#   #--template-file ./eks-wycliffe-ide-cfn.yaml \
-#   #--parameter-overrides RepositoryRef=stable \
-#   #--capabilities CAPABILITY_NAMED_IAM
+#--template-file ./eks-wycliffe-ide-cfn.yaml \
+#--parameter-overrides RepositoryRef=stable \
+#--capabilities CAPABILITY_NAMED_IAM
 #
 #Once the CloudFormation is completed you can retrieve the URL for the Cloud9 IDE like so:
 #
