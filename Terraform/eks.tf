@@ -45,7 +45,7 @@ module "eks" {
       }
 
       labels = {
-        workshop-default = "yes"
+        wycliffe-default = "yes"
       }
     }
   }
