@@ -1,8 +1,8 @@
-# Building a shopping cart application
+#Building a shopping cart application
 
-# Ploygolt
-# Microservices
-# Serialization
+#Ploygolt
+#Microservices
+#Serialization
 
 
 # CloudShell is a standalone, general-purpose tool that you can use to run commands on AWS to deploy CloudFormation Template to build a stack physical EKS Cluster
