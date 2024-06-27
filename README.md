@@ -32,7 +32,7 @@
 #Once the CloudFormation is completed you can retrieve the URL for the Cloud9 IDE like so:
 #
 #aws cloudformation describe-stacks --stack-name eks-wycliffe-ide \
-#    --query 'Stacks[0].Outputs[?OutputKey==`Cloud9Url`].OutputValue' --output text
+#--query 'Stacks[0].Outputs[?OutputKey==`Cloud9Url`].OutputValue' --output text
 #
 #Now open this URL in a web browser to access the IDE.
 #aws sts get-caller-identity
