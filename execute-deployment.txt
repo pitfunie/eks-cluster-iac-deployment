@@ -8,7 +8,7 @@ wget -q https://raw.githubusercontent.com/pitfunie/eks-cluster-iac-deployment/ma
 aws cloudformation describe-stacks --stack-name eks-wycliffe-ide
       --query 'Stacks[0].Outputs[?OutputKey==Cloud9Url].OutputValue' --output te xt
 
-#Now open this URL in a web browser to access the IDE. 
+#open this URL in a web browser to access the IDE. 
 
 aws sts get-caller-identity
 
