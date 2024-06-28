@@ -1,3 +1,4 @@
-export EKS_CLUSTER_NAME=eks-workshop
+export EKS_CLUSTER_NAME=eks-wycliffe
 terraform init
 terraform apply -var="cluster_name=$EKS_CLUSTER_NAME" -auto-approve
+
